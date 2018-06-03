@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{496F3BF4-1889-42D5-A708-FFDA4F025A37}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>MedOrg_Exam</RootNamespace>
-    <AssemblyName>MedOrg_Exam</AssemblyName>
+    <ProjectGuid>{C4D1446B-F984-4CB9-929D-DCAAADAE67CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MedOrg.LIB</RootNamespace>
+    <AssemblyName>MedOrg.LIB</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,23 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\MedOrg.cs" />
+    <Compile Include="Classes\Patient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DataGenerator.cs" />
+    <Compile Include="Services\SaveClass.cs" />
+    <Compile Include="Services\ZaprosNaPrikreplenie.cs" />
     <Compile Include="Users\Admin.cs" />
     <Compile Include="Users\Interfaces\ISaver.cs" />
     <Compile Include="Users\SaveAndLoadUser.cs" />
     <Compile Include="Users\Service.cs" />
     <Compile Include="Users\User.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MedOrg.LIB\MedOrg.LIB.csproj">
-      <Project>{c4d1446b-f984-4cb9-929d-dcaaadae67ca}</Project>
-      <Name>MedOrg.LIB</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

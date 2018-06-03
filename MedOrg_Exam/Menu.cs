@@ -27,7 +27,7 @@ namespace MedOrg_Exam
 
         ZaprosNaPrikreplenie zzz = new ZaprosNaPrikreplenie();
         List<Patient> PatientQueue = new List<Patient>();
-
+          
         public void StartAPP()
         {
             Console.Clear();

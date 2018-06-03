@@ -7,3 +7,12 @@ C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.csproj
 C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.csproj.CoreCompileInputs.cache
 C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.exe
 C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.pdb
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg_Exam.exe.config
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg_Exam.exe
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg_Exam.pdb
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg.LIB.dll
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg.LIB.pdb
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.csprojResolveAssemblyReference.cache
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.csproj.CoreCompileInputs.cache
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.exe
+D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.pdb

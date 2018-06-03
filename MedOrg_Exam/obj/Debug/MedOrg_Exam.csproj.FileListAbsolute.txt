@@ -1,0 +1,9 @@
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg_Exam.exe.config
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg_Exam.exe
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg_Exam.pdb
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg.LIB.dll
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg.LIB.pdb
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.csprojResolveAssemblyReference.cache
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.csproj.CoreCompileInputs.cache
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.exe
+C:\Users\Alfar\source\repos\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.pdb

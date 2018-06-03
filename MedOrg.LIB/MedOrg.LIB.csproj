@@ -46,11 +46,6 @@
     <Compile Include="Services\DataGenerator.cs" />
     <Compile Include="Services\SaveClass.cs" />
     <Compile Include="Services\ZaprosNaPrikreplenie.cs" />
-    <Compile Include="Users\Admin.cs" />
-    <Compile Include="Users\Interfaces\ISaver.cs" />
-    <Compile Include="Users\SaveAndLoadUser.cs" />
-    <Compile Include="Users\Service.cs" />
-    <Compile Include="Users\User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

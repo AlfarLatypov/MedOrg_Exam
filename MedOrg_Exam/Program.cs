@@ -12,10 +12,11 @@ namespace MedOrg_Exam
 {
     class Program
     {
+        public static bool yes = true;
         static void Main(string[] args)
         {
                // Menu menu = new Menu();
-            while (true)
+           while (yes)
             {
 
                 // menu.StartAPP();
@@ -26,7 +27,9 @@ namespace MedOrg_Exam
                 // Admin ad = new Admin();
                 Service s = new Service();
               //  s.CreateAdmin();
-                s.Dostup() ; Console.ReadLine();
+                s.Dostup() ;// Console.ReadLine();
+               // return;
+               if (!yes) return;
             }
         }
     }

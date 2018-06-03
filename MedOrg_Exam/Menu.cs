@@ -1,6 +1,7 @@
 ﻿using MedOrg.LIB;
 using MedOrg.LIB.Classes;
 using MedOrg.LIB.Services;
+using MedOrg.LIB.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,12 +25,15 @@ namespace MedOrg_Exam
         List<MedOrganization> medOrganization = new List<MedOrganization>();
         SaveOrLoad SaveLoad = null;
 
+        ZaprosNaPrikreplenie zzz = new ZaprosNaPrikreplenie();
+        List<Patient> PatientQueue = new List<Patient>();
+
         public void StartAPP()
         {
             Console.Clear();
             Console.WriteLine("\n\n\t\t\t************************* M E N U *************************");
             Console.WriteLine("\t\t\tНажмите: \n\t\t\t   1 - База пациентов\n\t\t\t   2 - База медорганизаций" +
-                "\n\t\t\t   3 - показать пациента\n\t\t\t   4 - показать медорганизацию\n\t\t\t   5 - Прикрепить пациента\n\t\t\t   0 - для выхода");
+                "\n\t\t\t   3 - показать пациента\n\t\t\t   4 - показать медорганизацию\n\t\t\t   5 - Прикрепить пациента\n\t\t\t   6 - Посмотреть списки на очередь\n\t\t\t   0 - для выхода");
             Console.WriteLine("\n\t\t\t***********************************************************");
             int choice = 0;
             Console.Write("\n\t\t\tВаш выбор - ");
@@ -72,13 +76,23 @@ namespace MedOrg_Exam
 
                         break;
                     }
+                case 6:
+                    {
+                        PatientQueue = zzz.getQueueZapros();
+                        foreach (Patient item in PatientQueue)
+                        {
+                            item.PacientInfo();
+                        }
+                        Console.ReadLine(); break;
+                    }
+
                 case 0:
                     {
                         Console.Clear();
                        // SaveLoad = new SaveOrLoad(patients, medOrganization);
                         SaveLoad.PatientXMLSerialize(patients);
                         SaveLoad.MedOrgXMLSerialize(medOrganization);
-                        return;
+                        Service.exit = false; return; 
                     }
             }
         }

@@ -27,6 +27,13 @@
         <IIN>460741898</IIN>
         <MedOrgName>Евразия</MedOrgName>
       </Patient>
+      <Patient>
+        <Familiya>Жаров</Familiya>
+        <Imya>Роман</Imya>
+        <Otchestvo>Александрович</Otchestvo>
+        <IIN>220502793</IIN>
+        <MedOrgName>Сункар</MedOrgName>
+      </Patient>
     </PatientList>
   </MedOrganization>
   <MedOrganization>
@@ -56,6 +63,13 @@
         <IIN>775492176</IIN>
         <MedOrgName>Интертич</MedOrgName>
       </Patient>
+      <Patient>
+        <Familiya>Жаров</Familiya>
+        <Imya>Роман</Imya>
+        <Otchestvo>Александрович</Otchestvo>
+        <IIN>220502793</IIN>
+        <MedOrgName>Сункар</MedOrgName>
+      </Patient>
     </PatientList>
   </MedOrganization>
   <MedOrganization>
@@ -70,6 +84,13 @@
         <Otchestvo>Инокетьевич</Otchestvo>
         <IIN>255735336</IIN>
         <MedOrgName>Медекер</MedOrgName>
+      </Patient>
+      <Patient>
+        <Familiya>Жаров</Familiya>
+        <Imya>Роман</Imya>
+        <Otchestvo>Александрович</Otchestvo>
+        <IIN>220502793</IIN>
+        <MedOrgName>Сункар</MedOrgName>
       </Patient>
     </PatientList>
   </MedOrganization>
@@ -91,6 +112,19 @@
         <Imya>Ярослав</Imya>
         <Otchestvo>Олегович</Otchestvo>
         <IIN>566824792</IIN>
+        <MedOrgName>Сункар</MedOrgName>
+      </Patient>
+      <Patient>
+        <Familiya>Жаров</Familiya>
+        <Imya>Роман</Imya>
+        <Otchestvo>Александрович</Otchestvo>
+        <IIN>220502793</IIN>
+        <MedOrgName>Сункар</MedOrgName>
+      </Patient>
+      <Patient>
+        <Familiya>Жопа</Familiya>
+        <Imya>Жопа</Imya>
+        <IIN>555563</IIN>
         <MedOrgName>Сункар</MedOrgName>
       </Patient>
     </PatientList>

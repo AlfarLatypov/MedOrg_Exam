@@ -16,3 +16,6 @@ D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOr
 D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.csproj.CoreCompileInputs.cache
 D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.exe
 D:\ШАГ\06_C#\024_Экзамен\Ready\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.pdb
+C:\Users\ЛатыповА\Desktop\MedOrg_Exam\MedOrg_Exam\bin\Debug\MedOrg_Exam.exe.config
+C:\Users\ЛатыповА\Desktop\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.exe
+C:\Users\ЛатыповА\Desktop\MedOrg_Exam\MedOrg_Exam\obj\Debug\MedOrg_Exam.pdb

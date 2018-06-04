@@ -82,6 +82,12 @@
     <Imya>Роман</Imya>
     <Otchestvo>Александрович</Otchestvo>
     <IIN>220502793</IIN>
-    <MedOrgName>Незакреплен</MedOrgName>
+    <MedOrgName>Сункар</MedOrgName>
+  </Patient>
+  <Patient>
+    <Familiya>Жопа</Familiya>
+    <Imya>Жопа</Imya>
+    <IIN>555563</IIN>
+    <MedOrgName>Сункар</MedOrgName>
   </Patient>
 </ArrayOfPatient>
